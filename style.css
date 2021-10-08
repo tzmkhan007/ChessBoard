@@ -1,0 +1,41 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+h2
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.chess-board {
+    border-spacing: 0;
+}
+
+.chess-board th {
+    padding: .5em;
+}
+
+.chess-board td {
+    border: 1px solid;
+    width: 2em;
+    height: 2em;
+}
+
+.chess-board .light {
+    background: #eee;
+}
+
+.chess-board .dark {
+    background: #000;
+}
